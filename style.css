@@ -1,0 +1,293 @@
+:root {
+  --dark__gray: #0E0B0B;
+  --light__gray: #141414;
+  --f1__red: #e6002b;
+}
+body {
+  margin: 0;
+  background: #141414;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: aliceblue;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 12px;
+  font-weight: 400;
+}
+/* index */
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  background-color: #0E0B0B;
+  height: 50px;
+  padding: 10px 20px;
+}
+.top {
+  display: flex;
+  align-items: center;
+}
+.menu {
+   display: flex;
+    gap: 54px;
+    margin:  auto;
+   
+}
+.menu a {
+  opacity: 100%;
+   transition: 0.3s;
+}
+.menu a:hover {
+opacity: 70%;
+}
+  
+
+
+.hero {
+  position: relative;
+   background-color: #0E0B0B;
+   padding: 10px 20px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+
+.title {
+  font-size: 54px;
+  z-index: 2;
+}
+.heroimg {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 920px;
+  max-width: 100%;
+  z-index: 1;
+}
+.imgreg {
+  opacity: 80%;
+  margin-right: 40px;
+  transition: 0.3s;
+}
+.imgreg:hover {
+opacity: 100%;
+}
+.partone {
+   padding: 20px;
+    height: 310px;
+    display: flex;
+    margin-top: 100px;
+}
+.partoneimg {
+  flex-shrink: 0;
+  max-width: 474px;
+  max-height: 309px;
+}
+.partoneblock {
+  display: flex;
+  margin-left: 40px;
+}
+.partonetitle {
+  opacity: 100%;
+  margin: 0;
+  top: 0;
+  font-weight: 400;
+  font-size: 80px;
+  transition: 0.3s;
+}
+.partonetitle:hover {
+  font-size: 81px;
+opacity: 70%;
+}
+#arrow {
+  width: 25px;
+}
+.parttwo {
+  position: relative;
+   padding: 20px;
+    height: 310px;
+    display: flex;
+    margin-top: 100px; 
+
+}
+.parttwoimg {
+ position: absolute;
+  right: 0px;
+  padding-right: 20px;
+  
+}
+.parttwoblock {
+  text-align: right;
+  margin-left: 480px;
+}
+
+.parttwotitle {
+  opacity: 100%;
+  transition: 0.3s;
+   margin: 0;
+  top: 0;
+  font-weight: 400;
+  font-size: 80px;
+
+}
+.parttwotitle:hover {
+  font-size: 81px;
+opacity: 70%;
+}
+.footer {
+  
+  position: relative;
+  display: flex;
+  color: #0E0B0B;
+  background-color: #e6002b;
+  height: 200px;
+  padding: 10px 20px
+}
+#logoblack {
+  flex-shrink: 0;
+  max-width: 75px;
+  max-height: 50px;
+}
+
+
+.bottom {
+  line-height: 2.5;
+  color: #0E0B0B;
+  margin-left: 40px;
+  
+}
+.bottom a {
+  opacity: 70%;
+  color: #0E0B0B;
+  font-size: 14px;
+  font-weight: 600;
+}
+.copy {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+   transform: translateX(-50%);
+   color: #0E0B0B;
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 70%;
+
+}
+/* 1 */
+.stub {
+    width: 100%;
+    height: 70px;
+    background-color: blue;
+}
+.main {
+  display: flex;
+  width: 1200px;
+  height: 880px;
+  margin: 0 auto;
+}
+.main__title {
+  position: relative;
+  background-color: #0E0B0B;
+  align-items: center;
+  display: flex;
+  width: 1200px;
+  height: 330px;
+  
+}
+.main__title__text {
+  position: absolute;
+  left: 600px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 80px;
+
+}
+.background__title {
+  background-color: #0E0B0B;
+  width: 100%;
+  height: 330px;
+}
+.main__text {
+  margin-left: 160px;
+  margin-right: 160px;
+  text-align: justify;
+  font-size: 20px;
+  line-height: 1.6;
+  text-indent: 20px;
+}  
+.title__img {
+  
+  position: absolute;
+  bottom: 0;
+  width: 575px;
+}
+.main__text__h {
+  margin-left: 160px;
+  margin-right: 160px;
+  text-align: justify;
+  font-size: 24px;
+  line-height: 1.6;
+  font-weight: 600;
+
+}
+.text__img {
+  display: flex;
+  justify-self: right;
+  
+  width: 600px;
+}
+.bigimg {
+  display: flex;
+  left: 50%;
+}
+.main__reg {
+position: relative;
+  width: 100%;
+  height: 700px;
+  display: flex;
+}
+.reg {
+
+  border-radius: 5px;
+  position: absolute;
+  left: 50%;
+   transform: translateX(-50%);
+  background-color: #e6002ac6;
+  width: 500px;
+  height: 600px;
+  align-self: center;
+}
+.title__reg {
+
+  position: absolute;
+   transform: translateX(-50%);
+  left: 50%;
+  font-size: 48px;
+  font-weight: 200;
+  margin: 0;
+}
+
+form {
+    position: absolute;
+    align-self: center;
+
+}
+
+input {
+
+
+  color: aliceblue;
+  background-color: #141414;
+  border: 0;
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
+}
+input::placeholder {
+color: aliceblue;
+opacity: 50%;
+}
