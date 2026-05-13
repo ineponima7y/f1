@@ -115,14 +115,16 @@ opacity: 70%;
 
 }
 .parttwoimg {
- position: absolute;
-  right: 0px;
-  padding-right: 20px;
+  padding-left: 20px ;
+
+
   
 }
 .parttwoblock {
+  position: absolute;
+  right: 20px;
+  display: flex;
   text-align: right;
-  margin-left: 480px;
 }
 
 .parttwotitle {
